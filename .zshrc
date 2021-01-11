@@ -106,12 +106,12 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 export CLICOLOR=1
+export EDITOR=nano
 
 source ~/.iterm2_shell_integration.zsh
 
 ### Aliases
 
-export CLICOLOR=1
 alias ls="ls -la"
 
 # docker
