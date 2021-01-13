@@ -127,7 +127,7 @@ alias kg="kubectl get"
 alias kt="kubectl top"
 alias kl="kubectl logs"
 alias ke="kubectl exec"
-alias kd="kubectl delete"
+alias kd="kubectl describe"
 
 # git
 
