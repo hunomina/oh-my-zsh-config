@@ -112,7 +112,7 @@ source ~/.iterm2_shell_integration.zsh
 
 ### Aliases
 
-alias ls="ls -la"
+alias ls="ls -lah"
 
 # docker
 alias do="docker"
@@ -141,6 +141,4 @@ alias gck="git checkout"
 # Visual Studio Code
 alias vsc="/Applications/Visual\ Studio\ Code.app/Contents/MacOS/Electron"
 
-# Homebrew
-alias bruh=brew
-
+export PATH="/usr/local/sbin:$PATH"
