@@ -18,3 +18,9 @@ git clone https://github.com/powerline/fonts.git --depth=1 \
 
 # Homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+# Copy zsh config from repo to host machine
+if [[ -f "./.zshrc" ]]; then
+  cp ./.zshrc ~/.zsh/.my_zshrc
+  echo "source ./.my_zshrc" >> ~/.zsh/.my_zshrc
+fi
